@@ -13,7 +13,7 @@ These are the steps I took to start a new project.
 
 ```
 7. add the following code :
-```
+
 
 const express = require('express')
 
@@ -26,14 +26,14 @@ res.send('Hello World!')
 app.listen(port, function() {
 console.log(`listening on port ${port}`)
 })
+```
 
-````
-8. boot up the server using ```node filename.js ``` or ```nodemon filename.js```
+8. boot up the server using `node filename.js ` or `nodemon filename.js`
 
-9. ```npm install body-parser```
+9. `npm install body-parser`
 
+10. require `const bodyParser = require('body-parser')`
 
-10. require ```const bodyParser = require('body-parser')```
+```
 
-
-````
+```
