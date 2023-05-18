@@ -11,10 +11,9 @@ These are the steps I took to start a new project.
 5. install express using the command - ` $ npm install express`
 6. Then I require express in my .js file using ```const express = require('express')
 
-```
 7. add the following code :
 
-
+```
 const express = require('express')
 
 const app = express()
